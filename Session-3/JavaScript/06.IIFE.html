@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>IIFE(Immediately Invoked Function Expression)</h1>
+
+    <script>
+        //iife: syntax---> (function(){})();
+        (function(){console.log("Welcome to IIFE")})();
+
+        const empId=(function(){
+            let count=0;
+            return function(){++count; return 'emp'+count}
+        })();
+
+        console.log("List of employee");
+
+        console.log(empId());
+        console.log(empId());
+        console.log(empId());
+        console.log(empId());
+    </script>
+    
+</body>
+</html>
