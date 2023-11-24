@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        var map= new Map();
+        map.set(101,"Alex");
+        map.set(102,"Macassa");
+        map.set(103,"Zandile");
+        map.set(104,"Mabena");
+        map.set(105,"Hazel");
+        map.set(106,"Malwane");
+
+        console.log(map);
+
+        console.log("Has 103 user or not? :"+map.has(103));
+        console.log("Has 110 user or not? :"+map.has(110));
+        console.log("Get The Value of 104 :"+map.get(104));
+
+        console.log("Delete the user 102 :"+map.delete(102));
+        console.log(map);
+
+        map.clear();
+        console.log(map);
+    </script>
+    
+</body>
+</html>

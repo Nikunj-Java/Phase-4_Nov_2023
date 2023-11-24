@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        class Student{
+            //constructor
+            constructor(id,name){
+                this.id=id;
+                this.name=name;
+            }
+
+            display(){
+                console.log("Id: "+this.id);
+                console.log("Name: "+this.name);
+            }
+        }
+
+        //object
+
+        let s1=new Student(1,"Nikunj Soni");
+        let s2=new Student(2,"Hazel Sethole");
+        //calling a method of class
+
+        s1.display();
+        s2.display();
+    </script>
+    
+</body>
+</html>
