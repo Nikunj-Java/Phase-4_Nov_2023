@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        //1. normal function ()=>
+
+        let print=()=>console.log("Welcome to Arrow Function");
+        print();
+
+        //2. parametrised function
+
+        let add=(a,b)=>a+b;
+
+        console.log("Arrow function Add: "+add(3,5));
+
+
+        //3. IIFE with arrow function
+        (()=>console.log("IIFE with Arrow Function"))();
+    </script>
+    
+</body>
+</html>
