@@ -1,0 +1,16 @@
+1. Install node:
+
+2. chekc the node version:
+> node -v
+
+3. Install angular using npm
+> npm install angular
+
+4. To check angular Version 
+> ng v
+
+5. To generate new app
+> ng new myapp
+
+6. to start new app
+> ng serve
