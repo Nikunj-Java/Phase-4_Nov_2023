@@ -5,6 +5,8 @@
 
 3. Install angular using npm
 > npm install angular
+ or 
+> npm install -g @angular/cli
 
 4. To check angular Version 
 > ng v
@@ -14,3 +16,6 @@
 
 6. to start new app
 > ng serve
+
+7. To generate Components
+> ng g c home
