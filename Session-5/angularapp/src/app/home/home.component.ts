@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class HomeComponent {
 
   name:string="Nikunj Soni";
+  url:string="https://www.google.com";
+  we:number=700;
 
 }
 
