@@ -1,5 +1,22 @@
-<h1>My First Angular App</h1>
+<div class="container">
+    <header>
+        <h2>Welcome to Routing WebApp</h2>
+    </header>
 
-<app-home></app-home>
-<app-about></app-about>
-<app-directives></app-directives>
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" routerLink="home" routerLinkActive="active"> Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="about"> About Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="directives"> Directives</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="pipe"> Pipes</a>
+        </li>
+    </ul>
+</div>
+
+<router-outlet></router-outlet>
